@@ -78,10 +78,10 @@
   linux:
   macos:
 
-- name: Skype
-  windows: https://go.skype.com/windows.desktop.download
-  linux: https://go.skype.com/skypeforlinux-64.deb
-  macos: https://go.skype.com/mac.download
+- name: Microsoft Teams
+  windows: https://www.microsoft.com/en/microsoft-teams/download-app
+  linux: https://www.microsoft.com/en/microsoft-teams/download-app
+  macos: https://www.microsoft.com/en/microsoft-teams/download-app
 
 - name: Zalo
   windows: https://zalo.me/pc

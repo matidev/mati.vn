@@ -4,5 +4,9 @@ all: start
 
 start:
 	bundle install
-	gnome-terminal --tab -- bash -c "bundle exec jekyll serve; exec bash"
-	google-chrome http://127.0.0.1:4000/
+	bundle exec jekyll serve
+	open -a "Google Chrome" http://127.0.0.1:4000/
+
+macos:
+	brew install ruby
+	gem install bundler
