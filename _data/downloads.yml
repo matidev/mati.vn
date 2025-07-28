@@ -43,6 +43,11 @@
   linux: https://www.jetbrains.com/
   macos: https://www.jetbrains.com/
 
+- name: Visual Studio Code
+  windows: https://code.visualstudio.com/Download
+  linux: https://code.visualstudio.com/Download
+  macos: https://code.visualstudio.com/Download
+
 - name: Sublime Text
   windows: https://www.sublimetext.com/download_thanks?target=win-x64
   linux: https://www.sublimetext.com/docs/linux_repositories.html
@@ -88,10 +93,10 @@
   linux: https://zalo.me/zalo-chat
   macos: https://zalo.me/pc
 
-- name: Telegram
-  windows: https://desktop.telegram.org/
-  linux: https://desktop.telegram.org/
-  macos: https://macos.telegram.org/
+- name: WhatsApp
+  windows: https://www.whatsapp.com/download
+  linux: https://www.whatsapp.com/download
+  macos: https://www.whatsapp.com/download
 
 - name: K-Lite Codec Pack
   windows: https://www.codecguide.com/download_k-lite_codec_pack_full.htm
@@ -109,16 +114,11 @@
   macos:
 
 - name: WinRAR 6
-  windows: https://drive.google.com/uc?id=15qRuOdtq1UXZcuP1LOifGxBEwNQ6-_YR&export=download
+  windows: https://www.win-rar.com/postdownload.html?&L=0
   linux:
   macos:
 
 - name: UniKey
   windows: https://www.unikey.org/download.html
-  linux:
-  macos:
-
-- name: Mati's Fonts Collection
-  windows: https://drive.google.com/uc?export=download&confirm=mWEx&id=10UeUDQY484kNkukUWeNGM4YlowI2biZp
   linux:
   macos:

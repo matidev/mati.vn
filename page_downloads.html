@@ -4,6 +4,8 @@ permalink: /downloads
 layout: default
 styles:
 - https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css
+scripts:
+- assets/js/mati-vn-download.min.js
 ---
 <div class="container">
     <div class="row justify-content-md-center">
@@ -37,24 +39,24 @@ styles:
                         </td>
                         <td class="text-center align-middle">
                             {% if item.windows %}
-                            <a data-placement="top" data-toggle="tooltip" href="{{ item.windows }}"
-                               target="_blank" title="Redirect to download page for Windows">
+                            <a data-download-link data-placement="top" data-toggle="tooltip"
+                               href="{{ item.windows }}" target="_blank" title="Redirect to download page for Windows">
                                 <i class="fa-solid fa-fw fa-up-right-from-square"></i>
                             </a>
                             {% endif %}
                         </td>
                         <td class="text-center align-middle">
                             {% if item.linux %}
-                            <a data-placement="top" data-toggle="tooltip" href="{{ item.linux }}"
-                               target="_blank" title="Redirect to download page for Linux">
+                            <a data-download-link data-placement="top" data-toggle="tooltip"
+                               href="{{ item.linux }}" target="_blank" title="Redirect to download page for Linux">
                                 <i class="fa-solid fa-fw fa-up-right-from-square"></i>
                             </a>
                             {% endif %}
                         </td>
                         <td class="text-center align-middle">
                             {% if item.macos %}
-                            <a data-placement="top" data-toggle="tooltip" href="{{ item.macos }}"
-                               target="_blank" title="Redirect to download page for MacOS">
+                            <a data-download-link data-placement="top" data-toggle="tooltip"
+                               href="{{ item.macos }}" target="_blank" title="Redirect to download page for MacOS">
                                 <i class="fa-solid fa-fw fa-up-right-from-square"></i>
                             </a>
                             {% endif %}
