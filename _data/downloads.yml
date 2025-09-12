@@ -23,11 +23,6 @@
   linux:
   macos:
 
-- name: AdwCleaner
-  windows: https://toolslib.net/downloads/finish/1-adwcleaner/
-  linux:
-  macos:
-
 - name: Docker Desktop
   windows: https://www.docker.com/products/docker-desktop/
   linux: https://www.docker.com/products/docker-desktop/
