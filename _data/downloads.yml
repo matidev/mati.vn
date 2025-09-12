@@ -8,21 +8,6 @@
   linux:
   macos:
 
-- name: Ubuntu Desktop
-  windows:
-  linux: https://www.ubuntu.com/download/desktop
-  macos:
-
-- name: Ubuntu Releases
-  windows:
-  linux: https://mirror.bizflycloud.vn/ubuntu-releases/
-  macos:
-
-- name: Oracle VM VirtualBox
-  windows: https://www.virtualbox.org/wiki/Downloads
-  linux: https://www.virtualbox.org/wiki/Linux_Downloads
-  macos: https://www.virtualbox.org/wiki/Downloads
-
 - name: Ultimate Windows Tweaker 4 for Windows 10
   windows: https://www.thewindowsclub.com/downloads/UWT4.zip
   linux:
@@ -38,10 +23,15 @@
   linux:
   macos:
 
-- name: JetBrains
-  windows: https://www.jetbrains.com/
-  linux: https://www.jetbrains.com/
-  macos: https://www.jetbrains.com/
+- name: AdwCleaner
+  windows: https://toolslib.net/downloads/finish/1-adwcleaner/
+  linux:
+  macos:
+
+- name: Docker Desktop
+  windows: https://www.docker.com/products/docker-desktop/
+  linux: https://www.docker.com/products/docker-desktop/
+  macos: https://www.docker.com/products/docker-desktop/
 
 - name: Visual Studio Code
   windows: https://code.visualstudio.com/Download
@@ -122,3 +112,8 @@
   windows: https://www.unikey.org/download.html
   linux:
   macos:
+
+- name: OpenKey
+  windows:
+  linux:
+  macos: https://github.com/tuyenvm/OpenKey
