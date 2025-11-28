@@ -33,11 +33,6 @@
   linux: https://code.visualstudio.com/Download
   macos: https://code.visualstudio.com/Download
 
-- name: Sublime Text
-  windows: https://www.sublimetext.com/download_thanks?target=win-x64
-  linux: https://www.sublimetext.com/docs/linux_repositories.html
-  macos: https://www.sublimetext.com/download_thanks?target=mac
-
 - name: Notepad++
   windows: https://notepad-plus-plus.org/downloads/
   linux:
@@ -47,11 +42,6 @@
   windows: https://www.google.com/chrome/
   linux: https://www.google.com/chrome/
   macos: https://www.google.com/chrome/
-
-- name: Bitvise SSH Client
-  windows: https://bitvise.com/ssh-client-download
-  linux:
-  macos:
 
 - name: FileZilla
   windows: https://filezilla-project.org/download.php?type=client
@@ -67,11 +57,6 @@
   windows: https://www.ultraviewer.net/en/download.html
   linux:
   macos:
-
-- name: Microsoft Teams
-  windows: https://www.microsoft.com/en/microsoft-teams/download-app
-  linux: https://www.microsoft.com/en/microsoft-teams/download-app
-  macos: https://www.microsoft.com/en/microsoft-teams/download-app
 
 - name: Zalo
   windows: https://zalo.me/pc
@@ -109,6 +94,6 @@
   macos:
 
 - name: OpenKey
-  windows:
-  linux:
-  macos: https://github.com/tuyenvm/OpenKey
+  windows: https://github.com/tuyenvm/OpenKey/releases
+  linux: https://github.com/tuyenvm/OpenKey/releases
+  macos: https://github.com/tuyenvm/OpenKey/releases

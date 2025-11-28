@@ -88,6 +88,7 @@
 <div class="copyright" style="padding-top: 25px; margin-top: 25px;">{{ "now" | date: "%Y" }} &copy; Tien Mai &bull; <a
         href="https://mati.vn">mati.vn</a></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ipaddr.js/2.2.0/ipaddr.min.js"></script>
 <script>
   (function ($) {
     'use strict';
@@ -96,6 +97,16 @@
       $yourIP = $('[data-your-ip]'),
       $ipInfo = $('[data-ip-info]'),
       $resultBlock = $('[data-result]'),
+      urlParms = new URLSearchParams(window.location.search),
+      urlIp = urlParms.get('ip'),
+      isValidIP = function (ip) {
+        if (!ip || !ipaddr.isValid(ip)) return false;
+
+        let addr = ipaddr.parse(ip),
+          range = addr.range();
+
+        return !['private', 'loopback', 'linkLocal', 'unspecified', 'uniqueLocal'].includes(range);
+      },
       getPortStatus = function (token, ip, port) {
         let $item = $('[data-port="' + port + '"]');
 
@@ -121,6 +132,7 @@
       $.ajax({
         type: 'POST',
         url: matiPlusAPI + '/ip',
+        data: isValidIP(urlIp) ? {ip: urlIp} : {},
         dataType: 'json',
         success: function (response) {
           $yourIP.html('<span style="font-weight: 500; color: #0079b5;">' + response.data.ipAddress + '</span>');
