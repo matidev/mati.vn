@@ -93,7 +93,7 @@
   linux:
   macos:
 
-- name: OpenKey
-  windows: https://github.com/tuyenvm/OpenKey/releases
-  linux: https://github.com/tuyenvm/OpenKey/releases
-  macos: https://github.com/tuyenvm/OpenKey/releases
+- name: XKey (macOS)
+  windows:
+  linux:
+  macos: https://github.com/xmannv/xkey
